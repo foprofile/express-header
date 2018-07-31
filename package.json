@@ -1,0 +1,43 @@
+{
+  "name": "express-header",
+  "description": "Fast, unopinionated, minimalist header middleware for the express framework",
+  "version": "1.0.0",
+  "author": "foprofile",
+  "contributors": [],
+  "license": "MIT",
+  "repository": "foprofile/express-header",
+  "homepage": "https://github.com/foprofile/express-header",
+  "keywords": [
+    "express",
+    "framework",
+    "web",
+    "header",
+	"middleware",
+    "app",
+    "api"
+  ],
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "mocha": "^5.2.0",
+    "request": "^2.87.0"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "files": [
+    "LICENSE",
+    "Contributing.md",
+	"History.md",
+    "Readme.md",
+	"Security.md",
+    "index.js",
+    "lib/"
+  ],
+  "scripts": {
+    "test": "mocha --reporter list"
+  }
+}
