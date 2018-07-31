@@ -86,7 +86,7 @@ The original author of Express is [TJ Holowaychuk](https://github.com/tj)
 
 The lead maintainer when this header middleware born was [Douglas Christopher Wilson](https://github.com/dougwilson)
 
-[List of all contributors](https://github.com/foprofile/express-header/Contributing.md)
+[List of all contributors](https://github.com/foprofile/express-header/blob/master/Contributing.md)
 
 ## License
 
