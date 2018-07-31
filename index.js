@@ -1,6 +1,4 @@
-﻿'use strict';
-
-/**
+﻿/**
  * Express Header Middleware
  * @param {array} headers
  * @return {function}
