@@ -3,8 +3,8 @@
   Fast, unopinionated, minimalist header middleware for the [express](http://expressjs.com) framework.
 
 ```js
-var express = require('express')
-var app = express()
+var express = require('express');
+var app = express();
 var expressHeader = require('express-header');
 
 app.use(expressHeader([

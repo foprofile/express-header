@@ -1,7 +1,7 @@
 'use strict';
 
 var express = require('../node_modules/express');
-var app = express()
+var app = express();
 var expressHeader = require('../');
  
 app.use(expressHeader([
