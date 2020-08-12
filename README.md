@@ -91,3 +91,8 @@ The lead maintainer when this header middleware born was [Douglas Christopher Wi
 ## License
 
   [MIT](LICENSE)
+
+## Donations
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=TP4378XME344L&currency_code=USD&source=url)
+
