@@ -1,7 +1,7 @@
 {
   "name": "express-header",
   "description": "Fast, unopinionated, minimalist header middleware for the express framework",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "foprofile",
   "contributors": [],
   "license": "MIT",
