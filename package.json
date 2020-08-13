@@ -5,7 +5,10 @@
   "author": "foprofile",
   "contributors": [],
   "license": "MIT",
-  "repository": "foprofile/express-header",
+  "repository": {
+	"type" : "git",
+	"url" : "git://github.com/foprofile/express-header.git"
+  },	
   "homepage": "https://github.com/foprofile/express-header",
   "keywords": [
     "express",
