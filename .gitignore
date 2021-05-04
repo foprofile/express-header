@@ -65,3 +65,6 @@ typings/
 
 # batch files
 *.bat
+
+# Package Lock file
+package-lock.json
