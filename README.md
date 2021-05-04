@@ -3,22 +3,24 @@
   Fast, unopinionated, minimalist header middleware for the [express](http://expressjs.com) framework.
 
 ```js
-var express = require('express');
-var app = express();
-var expressHeader = require('express-header');
+const express = require('express')
+const expressHeader = require('express-header')
+
+const PORT = 3000
+const app = express()
 
 app.use(expressHeader([
 	{key: 'X-Alpha', value: 'Alpha'},
 	{key: 'X-Beta', value: 'Beta'},
 	{key: 'x-gamma', value: 'Gamma'},
-	{key: 'x-gamma', value: ''       }
-]));
+	{key: 'x-gamma', value: ''}
+]))
 
 app.get('/', function (req, res) {
   res.send('Hello World');
 })
 
-app.listen(3000);
+app.listen(PORT)
 ```
 
 ## Installation
