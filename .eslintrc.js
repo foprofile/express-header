@@ -4,12 +4,18 @@ module.exports = {
     es2021: true
   },
   extends: [
-    'standard'
+    'standard',
+    'plugin:mocha/recommended',
+    'plugin:chai-friendly/recommended'
   ],
   parserOptions: {
     ecmaVersion: 12,
     sourceType: 'module'
   },
   rules: {
-  }
+  },
+  plugins: [
+    'mocha',
+    'chai-friendly'
+  ]
 }
